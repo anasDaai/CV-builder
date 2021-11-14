@@ -1,0 +1,33 @@
+.center-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+  
+  }
+  .card{
+    background-color: rgb(255, 255, 255,0.1);
+  }
+  .title{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 290px;
+  }
+  .navbar{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 550px;
+    
+  }
+  .parag{
+    width: 18em;
+    border-style: hidden;
+    position: relative;
+    right: 1.5em;
+  }
+  .App{
+    background-image:url(../images/bg.jpg);
+  }
