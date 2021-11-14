@@ -1,0 +1,28 @@
+{
+  "name": "resume-builder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node RESUME-BUILDER/server.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "file-saver": "^2.0.5",
+    "fs": "0.0.1-security",
+    "html-pdf": "^2.2.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3",
+    "nodemon": "^2.0.2"
+  }
+}
